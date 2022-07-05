@@ -1,0 +1,23 @@
+{
+  "name": "stripe-cancel-subscriptions",
+  "version": "1.0.0",
+  "description": "cancel past due users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GaelWLR",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "dotenv": "^16.0.1",
+    "stripe": "^9.11.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "npm": "8.13.2"
+  }
+}
